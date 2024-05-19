@@ -1,4 +1,4 @@
-INSERT INTO adbeyer.hosts_cumulated with yesterday as (
+ INSERT INTO adbeyer.hosts_cumulated with yesterday as (
   SELECT 
     * 
   FROM 
