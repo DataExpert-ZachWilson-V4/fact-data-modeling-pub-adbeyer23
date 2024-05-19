@@ -1,4 +1,4 @@
-with yesterday as (
+ with yesterday as (
   SELECT 
     * 
   FROM 
