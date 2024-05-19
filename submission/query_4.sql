@@ -1,4 +1,4 @@
-with devices_data as(
+ with devices_data as(
   SELECT 
     * 
   FROM 
