@@ -1,4 +1,4 @@
- WITH numbered_rows --dedupes nba_players by game_id, team_id and player_id
+  WITH numbered_rows --dedupes nba_players by game_id, team_id and player_id
      AS (SELECT *,
                 Row_number()
                   OVER(
